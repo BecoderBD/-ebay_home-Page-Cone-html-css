@@ -1,0 +1,447 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+
+/* ---------------------------------------------hover--------------------- */
+/* ------------------------------------------------------------------------------- */
+
+.underline:hover{
+    text-decoration: underline;
+}
+.colorblue:hover{
+    color: rgb(28, 137, 240);
+}
+.clblueunder:hover{
+    color: rgb(0, 0, 255);
+    text-decoration: underline;
+}
+.sec1hovline:hover{
+    text-decoration: underline;
+
+}
+.sec1hovcolor:hover{
+    color: rgb(114, 114, 255);
+}
+
+
+/* --- */
+.endspase{
+    height: 135px;
+}
+hr{
+   width: 98%;
+   margin: auto;
+}
+
+/* ----------------------------------------------------start header---------------------------------- */
+/* ---------------------------------------------------topber header---------------------------------- */
+
+.topber{
+    height: 30px;
+    width: 98%;
+    margin: auto;
+    display: flex;
+    border-bottom: 1px groove;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 0.9rem;
+    /* padding-right: 10px;
+    padding-left: 10px; */
+    cursor: pointer;
+}
+.paraspase{
+    width: 45%;
+}
+.topicon{
+    font-size: 1.1rem;
+}
+.topiconr{
+    font-size: 1rem;
+}
+
+/* ------------------------------------------------------------------------------------- */
+/* -----------------------------------------------headber Start------------------ */
+
+.headber{
+    height: 75px;
+    width: 98%;
+    margin: auto;
+    background-color: rgb(255, 253, 249);
+    border-bottom: 1px groove;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* padding-right: 30px;
+    padding-left: 30px; */
+    cursor: pointer;
+
+}
+.logo{
+    width: 120px;
+    height: 60px;
+    padding:5px ;
+    margin-top: 4px;
+}
+.head2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 43px;
+    width: 90px;
+    color: rgb(90, 90, 90);
+    font-size: 1rem;
+    font-weight: 300;
+    letter-spacing: -1px;
+
+}
+.catagoryicon{
+    font-size: 1rem;
+    width: 20px;
+    text-align: right;
+}
+.ct{
+    margin-top: -10px;
+}
+.head3{
+    height: 40px;
+    width: 820px;
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+
+}
+.magniicon{
+    width: 60px;
+    text-align: center;
+    color: rgb(146, 146, 146);
+    font-size: 1rem;
+}
+.search_box{
+    height: 35px;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    border-right: 2px groove;
+
+}
+.allcat{
+  width: 200px;
+  text-align: center;
+  font-size: 0.9rem;
+
+}
+.catdownicon{
+    width: 30px;
+    text-align: left;
+}
+.button{
+    width: 180px;
+    height: 40px;
+    background-color: rgb(28, 137, 240);
+    color: white;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+}
+.head5 > p{
+    font-size: 0.7rem;
+}
+
+/* ----------------------------------------------------------------------------------------*/
+/* ----------------------------------------------------Nav Header ----------------------*/
+
+.navber{
+    height: 35px;
+    width: 98%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+/* -------------------------------------------------------------------------------------------- */
+/* ------------------------------------------- --hero Section-------------------------------- */
+
+.hero{
+    height: 300px;
+    width: 98%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(Banner-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.sicon{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-size: 1.8rem;
+    border: none;
+    outline: none;
+}
+.ricon{
+    display: flex;
+    font-size: 1.8rem;
+    color: white;
+}
+.puse{
+    display: flex;
+    font-size: 1.8rem;
+    color: white;
+    padding-top: 200px;
+}
+/* ----------------------------------------------------------------------------------------- */
+/* --------------------------------------------------main first section------------------ */
+
+
+.sec1{
+    height: 130px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    
+}
+.sec1 a{
+    text-decoration: none;
+    color: black;
+}
+.sec1left{
+    width: 1200px;
+    font-size: 1.6rem;
+    font-weight: bolder;
+}
+.sec1right{
+    font-size: 1rem;
+}
+.sec2{
+    height: 160px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.catimg{
+    height: 160px;
+    width: 170px;
+}
+
+.sec2 div p {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+}
+/* _________________________-----------------------------------------------_____________________ */
+/* ______________----------------------------------main 2nd Section________________ */
+
+
+.sectiontwo{
+    width: 98%;
+    margin: auto;
+}
+.sec2{
+    height: 150px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    padding-top: 70px;
+    
+}
+.sec2 a{
+    text-decoration: none;
+    color: black;
+}
+.sec2left{
+    width: 1200px;
+    font-size: 1.6rem;
+    font-weight: bolder;
+}
+.sec2right{
+    font-size: 1rem;
+}
+.two1{
+    height: 265px;
+    width: 265px;
+    position: relative;
+    border: 2px groove;
+    border-radius: 20px;
+
+
+}
+.two1 img{
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+
+}
+.two1 i{
+    position: absolute;
+    right: 5%;
+    top: 10%;
+    font-size: 1.1rem;
+
+}
+.pricetext{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    height: 40px;
+}
+.text1{
+    line-height: 20px;
+}
+.text2{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.textthrow{
+    text-decoration: line-through;
+    padding-left: 5px;
+    margin-top: -;
+}
+.sectwo{
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    gap: 5px;
+    position: relative;
+
+
+}
+.arowlr{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    top: 45%;
+    padding-right: 20px;
+    font-size: 1.9rem;
+    color: rgb(15, 15, 15);
+}
+
+/* ___________------------------------------------------------------__________________________ */
+/* ___________-------------------------------------Advertising Section_______ */
+
+
+.ads1{
+    width: 98%;
+    height: 350px;
+    margin: auto;
+    position: relative;
+
+}
+.ads1 img{
+    width: 100%;
+    height: 350px;
+    margin-top: 120px;
+    cursor: pointer;
+}
+.butto{
+    position: absolute;
+    top: 240%;
+    left: 3%;
+    width: 220px;
+    height: 40px;
+    border: none;
+    font-size: 1.3rem;
+    border: 1px solid black;
+    text-align: center;
+    font-weight: 300;
+    cursor: pointer;
+
+}
+.butt{
+    position: absolute;
+    top: 20%;
+    left: 80%;
+    font-size: 1.3rem;
+    text-align: center;
+    cursor: pointer;
+
+
+}
+.adsbuttonhvr:hover{
+    background-color: rgb(255, 222, 73);
+    transition: 0.1s;
+    height: 37px;
+}
+
+/* ---------------------------------------------------------------------------------- */
+/* ----------------------------------------Advertise 2----------------- */
+
+/* ________________________ ----------------------------------------------------*/
+/* _____________---------------------------------Footer___________ */
+
+.footer1{
+    width: 98%;
+    margin: auto;
+    display: flex;
+    align-items: self-start;
+    justify-content: space-between;
+   margin-top: 40px;
+   color: rgb(87, 87, 87);
+   line-height: 30px;
+   padding: 0px 75px 0px 20px;
+
+}
+.footer1 p{
+    font-size: 0.9rem;
+}
+.footer1 h4{
+    line-height: 45px;
+}
+.fbfooter{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.ttfooter{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* ---------------------------------------------------------------------------------- */
+/* -----------------------------------------------footer 2------------- */
+
+.footer2{
+    width: 98%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    font-size: 0.7rem;
+    color: rgb(87, 87, 87);
+    margin-top: 70px;
+    margin-bottom: -70px;
+    padding-left: 15px;
+    
+}
+.bottonlink p a{
+    color: rgb(97, 97, 97);
+    cursor: pointer;
+    font-weight: 500;
+}
+.copyright p{
+    font-size: 0.7rem;
+    font-weight: 500;
+}
+
+
+/* ------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------ */
